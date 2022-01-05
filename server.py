@@ -2,7 +2,7 @@ from flask import Flask, render_template, request, redirect, session
 
 app = Flask(__name__)
 # set a secret key for security purposes
-app.secret_key = 'secret and safe'
+app.secret_key = ''
 
 # write a function that will show a page with a form on it
 # the index route will handle rendering the HTML form
